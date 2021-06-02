@@ -1,60 +1,21 @@
+
+
+
+/*Generales*/
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     background-color: rgb(218, 82, 77);
 }
 
-header{
-   color: white;
-   text-align: center;
-   margin: 30px;
-}
+/*-----------------------------------------header*/
 
-h1{
-    font-weight: bold;
-    display: inline;
 
-}
-
-nav button{
-    border: none;
-    border-radius: 4px; 
-    font-size: 20px;
-    background-color: #DE645E;
-    color: white; 
-}
-
+/*-------------------------------------main*/
 hr{
     background-color: black;
     width: 50%;
 }
 
-.contenedor{
-    background-color: #DE645E;
-    margin: auto;
-    width: 500px;
-    height: 300px;
-    border-radius: 10px;
-}
-
-p{
-    font-size: 120px;
-    color: white;
-    font-weight: bold;
-    padding: 0%;
-    margin: 0%;
-    text-align: center;
-}
-
-.contenedor button{
-    background-color: #DE645E;
-    border: none;
-    color: white;
-    font-size: 22px;
-}
-
-.contenedor button:last-child{
-    background-color: white;
-    color: #DE645E;
-    padding: 10px 35px;
-    box-shadow: 2px 4px 3px rgb(54, 52, 52);
-    border-radius: 10px;
-}
