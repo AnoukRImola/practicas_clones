@@ -7,7 +7,7 @@
     padding: 0;
 }
 body{
-    background-color: rgb(218, 82, 77);
+    background-color: #D95550;
 }
 
 /*header*/
@@ -21,7 +21,7 @@ nav{
     flex-flow: row nowrap;
     justify-content: space-between;
     border-bottom: 1px solid rgb(99, 89, 89);
-    width: 75vw;
+    width: 35vw;
     padding: 1rem;
 }
 
