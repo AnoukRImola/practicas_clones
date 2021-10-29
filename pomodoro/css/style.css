@@ -21,7 +21,8 @@ nav{
     flex-flow: row nowrap;
     justify-content: space-between;
     border-bottom: 1px solid rgb(99, 89, 89);
-    width: 35vw;
+    min-width: 35vw;
+    max-width: 80vw;
     padding: 1rem;
 }
 
@@ -48,5 +49,36 @@ main{
 .contenedor{
     display: flex;
     flex-flow: column nowrap;
+    margin: 4rem;
+    background-color: #DC6662;
+    border-radius: 0.3rem;
+    width: 40vw;
 }
 
+.contenedor1  button{
+    background: transparent;
+    border: none;
+    color: whitesmoke;
+    font-size: 1.1rem;
+    padding: 0.8rem;
+    cursor: pointer;
+    
+}
+
+.contenedor2 p{
+    font-size: 6rem;
+    color: whitesmoke;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.contenedor3 button{
+    background: whitesmoke;
+    color: #D95550;
+    font-size: 1rem;
+    border: none;
+    font-weight: bolder;
+    padding: 1rem;
+    width: 12em;
+    border-radius: 0.3rem;
+}
