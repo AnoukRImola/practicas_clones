@@ -67,6 +67,12 @@ main{
     font-size: 1.1rem;
     padding: 0.8rem;
     cursor: pointer;
+    border: 1px solid yellow;
+    margin: 00 0.5rem;
+}
+
+.contenedor1 button:hover{
+    background: #D95550;
 }
 
 .contenedor2 p{
