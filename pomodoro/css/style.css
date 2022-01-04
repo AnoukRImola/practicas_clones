@@ -43,6 +43,7 @@ h1{
 /*-main*/
 main{
     display: flex;
+    flex-flow: column;
     justify-content: center;
     align-items: center;
 }
@@ -98,5 +99,10 @@ main{
     width: 12em;
     border-radius: 0.3rem;
     border-bottom: 6px solid rgb(216, 214, 214);
+}
+
+section:last-child, footer{
+    background-color: white;
+    
 }
 
