@@ -107,3 +107,7 @@ section:last-child, footer{
     width: 50vw;
 }
 
+section:last-child, footer{
+    background-color: white;
+    width: 50vw;
+}
